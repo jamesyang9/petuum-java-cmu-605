@@ -74,7 +74,7 @@ public class MatrixFactCore {
             sqLoss += Math.pow((v - dotProduct), 2);
         }
 
-        totalLoss = sqLoss;
+        totalLoss = 0;
         for (int i = LRowBegin; i < LRowEnd; i++) {
             DoubleRow L_i = LTable.get(i);
             for (int k = 0; k < K; k++) {
