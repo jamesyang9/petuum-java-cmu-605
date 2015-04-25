@@ -85,7 +85,7 @@ public class LossRecorder {
                 String formatVal = (val % 1 == 0) ? intFormat.format(val) :
                     doubleFormat.format(val);
                 stats += formatVal + " ";
-                assert !Double.isNaN(val);
+                //assert !Double.isNaN(val);
             }
             stats += "\n";
         }
@@ -102,7 +102,7 @@ public class LossRecorder {
             String formatVal = (val % 1 == 0) ? intFormat.format(val) :
                 doubleFormat.format(val);
             stats += fields.get(j) + ": " + formatVal + " ";
-            assert !Double.isNaN(val);
+            //assert !Double.isNaN(val);
         }
         return stats;
     }
