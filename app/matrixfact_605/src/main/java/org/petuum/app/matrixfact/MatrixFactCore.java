@@ -28,8 +28,8 @@ public class MatrixFactCore {
         int j = r.prodId;
         float v = r.rating;
 
-        DenseRow L_i = (DenseRow) (LTable.get(i));
-        DenseRow R_j = (DenseRow) (RTable.get(j));
+        DoubleRow L_i = LTable.get(i);
+        DoubleRow R_j = RTable.get(j);
 
         DoubleRowUpdate lUpdates = new DenseDoubleRowUpdate(k);
         DoubleRowUpdate rUpdates = new DenseDoubleRowUpdate(k);
@@ -65,8 +65,8 @@ public class MatrixFactCore {
             int i = r.userId;
             int j = r.prodId;
             float v = r.rating;
-            DenseRow L_i = (DenseRow) (LTable.get(i));
-            DenseRow R_j = (DenseRow) (RTable.get(j));
+            DoubleRow L_i = LTable.get(i);
+            DoubleRow R_j = RTable.get(j);
             double dotProduct = 0;
             for (int k = 0; k < K; k++) {
                 dotProduct += L_i.get(k) * R_j.get(k);
@@ -76,13 +76,13 @@ public class MatrixFactCore {
 
         totalLoss = sqLoss;
         for (int i = LRowBegin; i < LRowEnd; i++) {
-            DenseRow L_i = (DenseRow) (LTable.get(i));
+            DoubleRow L_i = LTable.get(i);
             for (int k = 0; k < K; k++) {
                 totalLoss += lambda * Math.pow(L_i.get(k), 2);
             }
         }
         for (int j = RRowBegin; j < RRowEnd; j++) {
-            DenseRow R_j = (DenseRow) (RTable.get(j));
+            DoubleRow R_j = RTable.get(j);
             for (int k = 0; k < K; k++) {
                 totalLoss += lambda * Math.pow(R_j.get(k), 2);
             }
