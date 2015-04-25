@@ -31,8 +31,8 @@ public class MatrixFactCore {
         DoubleRow L_i = LTable.get(i);
         DoubleRow R_j = RTable.get(j);
 
-        DoubleRowUpdate lUpdates = new DenseDoubleRowUpdate(k);
-        DoubleRowUpdate rUpdates = new DenseDoubleRowUpdate(k);
+        DoubleRowUpdate lUpdates = new DenseDoubleRowUpdate(K);
+        DoubleRowUpdate rUpdates = new DenseDoubleRowUpdate(K);
 
         double dotProduct = 0;
         for (int k = 0; k < K; k++) {
