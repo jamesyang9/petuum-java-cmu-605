@@ -71,7 +71,7 @@ public class MatrixFactCore {
             for (int k = 0; k < K; k++) {
                 dotProduct += L_i.get(k) * R_j.get(k);
             }
-            sqLoss += Math.pow((v - dotProduct), 2);
+            sqLoss += (v - dotProduct) * (v - dotProduct);
         }
 
         totalLoss = 0;
