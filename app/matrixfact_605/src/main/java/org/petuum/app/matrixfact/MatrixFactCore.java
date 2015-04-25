@@ -40,8 +40,8 @@ public class MatrixFactCore {
         }
 
         for (int k = 0; k < K; k++) {
-            double deltaL = -2.0 * (v - dotProduct) * R_j.get(k) + 2.0 * lambda * L_i.get(k);
-            double deltaR = -2.0 * (v - dotProduct) * L_i.get(k) + 2.0 * lambda * R_j.get(k);
+            double deltaL = 2.0 * learningRate * (lambda * L_i.get(k) - (v - dotProduct) * R_j.get(k));
+            double deltaR = 2.0 * learningRate * (lambda * R_j.get(k) - (v - dotProduct) * L_i.get(k));
             lUpdates.setUpdate(k, deltaL);
             rUpdates.setUpdate(k, deltaR);
         }

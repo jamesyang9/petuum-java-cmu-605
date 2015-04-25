@@ -25,23 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MatrixFactCore.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MatrixFactCore.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.12" vertical-offset="1039" max-vertical-offset="1717">
-              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-0.3761062" vertical-offset="442" max-vertical-offset="1717">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LossRecorder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LossRecorder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/LossRecorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="582" max-vertical-offset="1683">
-              <caret line="63" column="14" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="14" />
+            <state vertical-scroll-proportion="-8.923077" vertical-offset="1032" max-vertical-offset="1683">
+              <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -458,12 +456,12 @@
       <option name="number" value="Default" />
       <updated>1429907936675</updated>
       <workItem from="1429907937493" duration="963000" />
-      <workItem from="1429936234582" duration="49000" />
+      <workItem from="1429936234582" duration="819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1012000" />
+    <option name="totallyTimeSpent" value="1782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -522,26 +520,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.12" vertical-offset="1039" max-vertical-offset="1717">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/LossRecorder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="582" max-vertical-offset="1683">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="14" />
+        <state vertical-scroll-proportion="-8.923077" vertical-offset="1032" max-vertical-offset="1683">
+          <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/Rating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3761062" vertical-offset="442" max-vertical-offset="1717">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding />
         </state>
       </provider>
