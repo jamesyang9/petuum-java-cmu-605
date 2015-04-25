@@ -78,15 +78,16 @@ public class MatrixFactCore {
         for (int i = LRowBegin; i < LRowEnd; i++) {
             DoubleRow L_i = LTable.get(i);
             for (int k = 0; k < K; k++) {
-                totalLoss += lambda * Math.pow(L_i.get(k), 2);
+                totalLoss += Math.pow(L_i.get(k), 2);
             }
         }
         for (int j = RRowBegin; j < RRowEnd; j++) {
             DoubleRow R_j = RTable.get(j);
             for (int k = 0; k < K; k++) {
-                totalLoss += lambda * Math.pow(R_j.get(k), 2);
+                totalLoss += Math.pow(R_j.get(k), 2);
             }
         }
+        totalLoss = totalLoss * lambda + sqLoss;
 
         lossRecorder.incLoss(ithEval, "SquareLoss", sqLoss);
         lossRecorder.incLoss(ithEval, "FullLoss", totalLoss);

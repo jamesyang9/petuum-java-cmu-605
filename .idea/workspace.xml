@@ -28,9 +28,11 @@
       <file leaf-file-name="MatrixFactCore.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3761062" vertical-offset="442" max-vertical-offset="1717">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding />
+            <state vertical-scroll-proportion="0.6740413" vertical-offset="1056" max-vertical-offset="1734">
+              <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,7 +40,7 @@
       <file leaf-file-name="LossRecorder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/LossRecorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.923077" vertical-offset="1032" max-vertical-offset="1683">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1683">
               <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
               <folding />
             </state>
@@ -53,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java" />
         <option value="$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/LossRecorder.java" />
+        <option value="$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java" />
       </list>
     </option>
   </component>
@@ -91,6 +93,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,8 +193,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,11 +459,12 @@
       <updated>1429907936675</updated>
       <workItem from="1429907937493" duration="963000" />
       <workItem from="1429936234582" duration="819000" />
+      <workItem from="1429937388787" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1782000" />
+    <option name="totallyTimeSpent" value="1828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -518,15 +521,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/LossRecorder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.923077" vertical-offset="1032" max-vertical-offset="1683">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1683">
+          <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/LossRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1683">
           <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
           <folding />
         </state>
@@ -542,9 +565,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/matrixfact_605/src/main/java/org/petuum/app/matrixfact/MatrixFactCore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3761062" vertical-offset="442" max-vertical-offset="1717">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding />
+        <state vertical-scroll-proportion="0.6740413" vertical-offset="1056" max-vertical-offset="1734">
+          <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
