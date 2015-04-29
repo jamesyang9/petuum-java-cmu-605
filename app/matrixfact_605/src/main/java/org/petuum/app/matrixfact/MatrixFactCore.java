@@ -63,7 +63,8 @@ public class MatrixFactCore {
         double sqLoss = 0;
         double totalLoss = 0;
 
-        for (Rating r: ratings) {
+        for(int idx = elemBegin; idx < elemEnd; idx++) {
+            Rating r = ratings.get(idx);
             int i = r.userId;
             int j = r.prodId;
             float v = r.rating;
